@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "slider_tests",
+  "info": {
+    "singularName": "slider-test",
+    "pluralName": "slider-tests",
+    "displayName": "Slider_Tests"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "unique_id": {
+      "type": "uid"
+    },
+    "Partner": {
+      "type": "string"
+    },
+    "Form_factor": {
+      "type": "string"
+    },
+    "Expiry_Date": {
+      "type": "datetime"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}
