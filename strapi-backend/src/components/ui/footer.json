@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_ui_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "crop"
+  },
+  "options": {},
+  "attributes": {
+    "footerImage": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "footerText": {
+      "type": "richtext"
+    },
+    "Links": {
+      "type": "component",
+      "component": "links.links",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

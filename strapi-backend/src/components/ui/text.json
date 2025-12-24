@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_ui_texts",
+  "info": {
+    "displayName": "Text",
+    "icon": "cup"
+  },
+  "options": {},
+  "attributes": {
+    "startDateTime": {
+      "type": "datetime"
+    },
+    "endDateTime": {
+      "type": "datetime"
+    },
+    "partnerId": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}

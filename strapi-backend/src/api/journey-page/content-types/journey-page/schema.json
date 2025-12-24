@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "journey_pages",
+  "info": {
+    "singularName": "journey-page",
+    "pluralName": "journey-pages",
+    "displayName": "Journey Pages"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "page_name": {
+      "type": "string"
+    },
+    "journeyType": {
+      "type": "enumeration",
+      "enum": [
+        "Digi Metal",
+        "Gold Loan",
+        "Credit",
+        "Motor Insurance"
+      ]
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "ui.text",
+        "ui.image",
+        "ui.footer",
+        "ui.carousel"
+      ]
+    }
+  }
+}

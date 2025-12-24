@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_ui_carousels",
+  "info": {
+    "displayName": "Carousel",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "partnerId": {
+      "type": "string"
+    },
+    "startDateTime": {
+      "type": "datetime"
+    },
+    "endDateTime": {
+      "type": "datetime"
+    },
+    "deeplink": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

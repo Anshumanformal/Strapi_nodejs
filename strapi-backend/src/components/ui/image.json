@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_ui_images",
+  "info": {
+    "displayName": "Image",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "altText": {
+      "type": "string"
+    },
+    "partnerId": {
+      "type": "string"
+    },
+    "endDateTime": {
+      "type": "datetime"
+    },
+    "startDateTime": {
+      "type": "datetime"
+    }
+  },
+  "config": {}
+}
