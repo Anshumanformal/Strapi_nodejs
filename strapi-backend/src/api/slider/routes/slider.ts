@@ -9,7 +9,7 @@ module.exports = {
       path: '/sliders',
       handler: 'slider.find',
       config: {
-        auth: false
+        auth: {}
       }
     },
     {
@@ -17,7 +17,7 @@ module.exports = {
       path: '/sliders/:id',
       handler: 'slider.findOne',
       config: {
-        auth: false
+        auth: {}
       }
     }
   ]
