@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "channel_configs",
+  "info": {
+    "singularName": "channel-config",
+    "pluralName": "channel-configs",
+    "displayName": "channel_config"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "channel_code": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "channel_name": {
+      "type": "string"
+    },
+    "is_active": {
+      "type": "boolean",
+      "default": true
+    },
+    "min_buy_amount": {
+      "type": "decimal"
+    },
+    "max_buy_amount": {
+      "type": "decimal"
+    },
+    "daily_transaction_limit": {
+      "type": "integer"
+    },
+    "pan_required_threshold": {
+      "type": "decimal"
+    },
+    "pan_validation_mode": {
+      "type": "enumeration",
+      "default": "OFF",
+      "enum": [
+        "ON",
+        "OFF"
+      ]
+    },
+    "partner_notification_suppression": {
+      "type": "boolean",
+      "default": false
+    },
+    "config_scope": {
+      "type": "enumeration",
+      "default": "CHANNEL",
+      "enum": [
+        "CHANNEL",
+        "GLOBAL",
+        "REGION",
+        "PARTNER"
+      ]
+    }
+  }
+}
